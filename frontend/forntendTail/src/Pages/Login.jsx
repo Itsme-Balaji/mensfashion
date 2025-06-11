@@ -25,7 +25,7 @@ const Login = () => {
           if(regex.test(formData.email)){
                     if(formData.password){
                     if((formData.password).length>=4){
-                        const response = await axios.post("http://localhost:4000/user/register",formData);
+                        const response = await axios.post("https://mensfashion-8.onrender.com/user/register",formData);
                         if(response.data.status){
                           localStorage.setItem("token",response.data.token);
                           setFormData({
@@ -71,7 +71,7 @@ const Login = () => {
     const login = async () =>{
       if(formData.email){
         if(formData.password){
-          const response = await axios.post("http://localhost:4000/user/login",formData);
+          const response = await axios.post("https://mensfashion-8.onrender.com/user/login",formData);
             if(response.data.status){
               localStorage.setItem("token",response.data.token);
               setFormData({
