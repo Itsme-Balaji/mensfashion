@@ -4,7 +4,7 @@ const cors = require('cors')
 const mongoose = require('mongoose');
 
 const app = express()
-const port = 4000
+const port = process.env.PORT || 4000
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded())
