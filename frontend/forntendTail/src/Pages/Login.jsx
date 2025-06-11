@@ -104,9 +104,9 @@ const Login = () => {
         <div className='bg-[#3f2a1b] mb-[100px] md:mb-[0px] h-[420px] w-[400px] p-4 rounded-[0.8rem] '>
             <h1 className='text-lg text-center mt-4 font-bold text-white'>{creation}</h1>
             <div className='mt-12 z-0'>
-               {creation==="SignUp"?<div className='text-center'><input type='text' onChange={changeHandler} value={formData.name} name='name' placeholder='Your Name' required className='p-2 w-[90%] mb-4 rounded-[0.5rem] m-auto'/></div>:<></>}
-                <div className='text-center'><input type='email' onChange={changeHandler} value={formData.email} name='email' placeholder='Your Email' required className='p-2 w-[90%] mb-4 rounded-[0.5rem]'/></div>
-               <div className='text-center'> <input type='password' onChange={changeHandler} value={formData.password} name='password' placeholder='Your Password' required className='p-2 w-[90%] mb-4 rounded-[0.5rem]'/></div>
+               {creation==="SignUp"?<div className='text-center'><input type='text' onChange={changeHandler} value={formData.name} name='name' placeholder='Your Name'  className='p-2 w-[90%] mb-4 rounded-[0.5rem] m-auto bg-white'/></div>:<></>}
+                <div className='text-center'><input type='email' onChange={changeHandler} value={formData.email} name='email' placeholder='Your Email'  className='p-2 w-[90%] mb-4 rounded-[0.5rem] bg-white'/></div>
+               <div className='text-center'> <input type='password' onChange={changeHandler} value={formData.password} name='password' placeholder='Your Password'  className='p-2 w-[90%] mb-4 rounded-[0.5rem] bg-white'/></div>
                <div className='text-center'><button className='bg-[#d45606] p-2 w-[90%] mb-4 rounded-[0.5rem] hover:bg-[red]' onClick={()=>{creation==="Login"?login():signup()}}>continue</button></div>
               
                {creation==="Login"?<div className='ml-6 mt-2 text-white'><span >Create New Account</span>  <span className='text-[#d45606] ml-4 underline cursor-pointer hover:text-[red]' onClick={()=>setCreation("SignUp")}>Click Here</span></div>

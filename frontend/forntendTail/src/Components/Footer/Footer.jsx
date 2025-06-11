@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <section id='footer' className='min-h-[60vh] overflow-hidden max-w-[100vw] bg-[#3f2a1b] mt-16'>
+    <section id='footer' className='min-h-[60vh] overflow-hidden max-w-[100vw] bg-[#3f2a1b]'>
 
 
         <div className='grid sm:grid-cols-2 lg:grid-cols-4 w-[90vw] m-auto gap-x-8 gap-y-4 mt-12'>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className=''>
                 <h1 className='text-[rgb(225_104_11)] text-bold text-[1.6rem] '>Sign up to be the first to know about new collections.</h1>
-                <input type='email' placeholder='email' className='mt-4 w-full bg-[black] rounded-[2rem] py-3 px-4 border-2 border-white-400' />
+                <input type='email' placeholder='email' className='mt-4 w-full bg-white rounded-[2rem] py-3 px-4 border-2 border-white-400' />
                 <ul className='flex gap-5 mt-8 px-4'>
                     <li className='text-[1.5rem] text-[white] hover:text-[rgb(225_104_11)]'><FaXTwitter /></li>
                     <li className='text-[1.5rem] text-[white] hover:text-[rgb(225_104_11)]'><FaFacebook /></li>

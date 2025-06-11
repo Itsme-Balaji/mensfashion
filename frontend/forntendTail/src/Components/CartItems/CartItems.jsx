@@ -66,7 +66,10 @@ const CartItems = () => {
             <h1 className='font-bold text-lg mt-4'>Total Amount------- <span className='text-[green]'><MdOutlineCurrencyRupee className='inline'/>{totalCartAmount()-30}</span></h1>
 
         </div>
-       </div> :<div className='flex justify-center items-center min-h-[100vh]  bg-[black]'><BsEmojiFrown className='text-[#d45606] fixed text-6xl'/> <h1 className='text-[red] fixed mt-28'>Cart is Empty</h1></div> }
+       </div> :<div className='flex justify-center flex-col items-center min-h-[100vh]  bg-[black]'>
+                    <BsEmojiFrown className='text-[#d45606]  text-6xl text-center w-full'/> 
+                    <h1 className='text-[red]  mt-2  w-full text-center'>Cart is Empty</h1>
+                </div> }
     </section> 
   )
 }

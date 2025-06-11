@@ -116,7 +116,7 @@ import white_41 from '../images/shirts/formalShirts/white_41.webp'
 import white_42 from '../images/shirts/formalShirts/white_42.webp'
 import white_43 from '../images/shirts/formalShirts/white_43.webp'
 import white_44 from '../images/shirts/formalShirts/white_44.webp'
-import white_45 from '../images/shirts/formalShirts/white_41.webp'
+import white_45 from '../images/banner/headerLogo.png'
 
 //21
 import blackPrint_41 from '../images/shirts/printedShirts/blackPrint_41.webp'
@@ -129,7 +129,7 @@ import blueBorder_01 from '../images/shirts/printedShirts/blueBorder_01.webp'
 import blueBorder_02 from '../images/shirts/printedShirts/blueBorder_02.webp'
 import blueBorder_03 from '../images/shirts/printedShirts/blueBorder_03.webp'
 import blueBorder_04 from '../images/shirts/printedShirts/blueBorder_04.webp'
-import blueBorder_05 from '../images/shirts/printedShirts/blueBorder_01.webp'
+import blueBorder_05 from '../images/banner/headerLogo.png'
 
 //23
 import blueLines_91 from '../images/shirts/printedShirts/blueLines_91.webp'
@@ -142,28 +142,28 @@ import greenLeave_11 from '../images/shirts/printedShirts/greenLeave_11.webp'
 import greenLeave_12 from '../images/shirts/printedShirts/greenLeave_12.webp'
 import greenLeave_13 from '../images/shirts/printedShirts/greenLeave_13.webp'
 import greenLeave_14 from '../images/shirts/printedShirts/greenLeave_14.webp'
-import greenLeave_15 from '../images/shirts/printedShirts/greenLeave_11.webp'
+import greenLeave_15 from '../images/banner/headerLogo.png'
 
 //25
 import greenWaves_71 from '../images/shirts/printedShirts/greenWaves_71.webp'
 import greenWaves_72 from '../images/shirts/printedShirts/greenWaves_72.webp'
 import greenWaves_73 from '../images/shirts/printedShirts/greenWaves_73.webp'
 import greenWaves_74 from '../images/shirts/printedShirts/greenWaves_74.webp'
-import greenWaves_75 from '../images/shirts/printedShirts/greenWaves_71.webp'
+import greenWaves_75 from '../images/banner/headerLogo.png'
 
 //26
 import redBorderC_81 from '../images/shirts/printedShirts/redBorder_81.webp'
 import redBorderC_82 from '../images/shirts/printedShirts/redBorder_82.webp'
 import redBorderC_83 from '../images/shirts/printedShirts/redBorder_83.webp'
 import redBorderC_84 from '../images/shirts/printedShirts/redBorder_84.webp'
-import redBorderC_85 from '../images/shirts/printedShirts/redBorder_81.webp'
+import redBorderC_85 from '../images/banner/headerLogo.png'
 
 //27
 import sandalLeafe_61 from '../images/shirts/printedShirts/sandalLeafe_61.webp'
 import sandalLeafe_62 from '../images/shirts/printedShirts/sandalLeafe_62.webp'
 import sandalLeafe_63 from '../images/shirts/printedShirts/sandalLeafe_63.webp'
 import sandalLeafe_64 from '../images/shirts/printedShirts/sandalLeafe_64.webp'
-import sandalLeafe_65 from '../images/shirts/printedShirts/sandalLeafe_61.webp'
+import sandalLeafe_65 from '../images/banner/headerLogo.png'
 
 //28
 import sandalOval_31 from '../images/shirts/printedShirts/sandalOval_31.webp'
