@@ -16,7 +16,7 @@ export const ProductsContextProvider = (props)=>{
     useEffect(()=>{
 
          if(localStorage.getItem("token")){
-            fetch("http://localhost:4000/user/getcart",{
+            fetch("https://mensfashion-8.onrender.com/user/getcart",{
                 method:"POST",
                 headers:{
                     Accept:'application/form-data',
@@ -40,7 +40,7 @@ export const ProductsContextProvider = (props)=>{
     const addToCart = (itemId)=>{
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}));
         if(localStorage.getItem("token")){
-            fetch("http://localhost:4000/user/addcart",{
+            fetch("https://mensfashion-8.onrender.com/user/addcart",{
                 method:"POST",
                 headers:{
                     Accept:'application/form-data',
@@ -62,7 +62,7 @@ export const ProductsContextProvider = (props)=>{
 
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}));
         if(localStorage.getItem("token")){
-            fetch("http://localhost:4000/user/removecart",{
+            fetch("https://mensfashion-8.onrender.com/user/removecart",{
                 method:"POST",
                 headers:{
                     Accept:'application/form-data',
